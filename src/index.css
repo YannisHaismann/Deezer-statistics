@@ -1,11 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Deezer";
+  src: url("./assets/fonts/MabryDeezer-Medium.ttf"),
+       url("./assets/fonts/MabryDeezer-Medium.woff"),
+       url("./assets/fonts/MabryDeezer-Medium.woff2"),
+       url("./assets/fonts/MabryDeezer-Medium.eot");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Deezer";
+  src: url("./assets/fonts/MabryDeezer-Bold.ttf"),
+       url("./assets/fonts/MabryDeezer-Bold.woff"),
+       url("./assets/fonts/MabryDeezer-Bold.woff2"),
+       url("./assets/fonts/MabryDeezer-Bold.eot");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Deezer";
+  src: url("./assets/fonts/MabryDeezer-Black.ttf"),
+       url("./assets/fonts/MabryDeezer-Black.woff"),
+       url("./assets/fonts/MabryDeezer-Black.woff2"),
+       url("./assets/fonts/MabryDeezer-Black.eot");
+  font-weight: 900;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
